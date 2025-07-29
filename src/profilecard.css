@@ -1,0 +1,12 @@
+/* /* @media (max-width: 600px) {
+  .responsive {
+    background-color: lightcoral;
+    display: flex; /* Enables flexbox for the container */
+  /* flex-wrap: wrap; Allows items to wrap to the next line */
+  /* }
+/* } */  
+
+.container {
+  display: flex; /* Enables flexbox for the container */
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+}
