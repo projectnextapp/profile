@@ -1,7 +1,7 @@
 import React from 'react'
 import kelvin1 from './images/kelvin1.jpg'
-import passport from './images/passport.jpg'
-import charles from './images/charles.jpg'
+import jamike from './images/jamike.jpg'
+import charles3 from './images/charles3.png'
 import Footer from './footer'
 import Header from  './header'
 import './profilecard.css'
@@ -93,7 +93,7 @@ document.getElementById("modeButton").innerText = "Change to dark mode";
  <div className='item' id='firstcard' style={cardStyles} onMouseOver={Mousein} onMouseLeave={Mouseout} >
         
      <img src={kelvin1} alt="profilefoto" style={{width: "250px", height: "250px", borderRadius:8}} />
-        <h1>Egwi Kelvin </h1>
+        <h3>Egwi Kelvin </h3>
         <p>I am a UI/UX designer, Video Editor, Web designer, Front End developer and Mobile App Developer, with {5} years experience</p>
          <button onClick={showNumber} style={buttonStyles}>Show phone </button>  
         </div>
@@ -103,9 +103,9 @@ document.getElementById("modeButton").innerText = "Change to dark mode";
         {/* //card2 */}
  <div className='item' id='secondcard' style={cardStyles} onMouseOver={Mousein} onMouseLeave={Mouseout}>
         
-     <img src={passport} alt="profilefoto" style={{width: "250px", height: "250px", borderRadius:8}} />
-        <h1>Herbert Kelvin </h1>
-        <p>I am a UI/UX designer, programmer with proficiencty in React, HTML, Javascript, with {4} years hands on experience</p>
+     <img src={jamike} alt="profilefoto" style={{width: "250px", height: "250px", borderRadius:8}} />
+        <h3>Jamike Obikwelu </h3>
+        <p>Angular programmer with proficiencty in React, HTML, Javascript, with {4} years hands on experience</p>
          <button onClick={showNumber} style={buttonStyles}>Show phone </button>  
         </div>
         
@@ -115,8 +115,8 @@ document.getElementById("modeButton").innerText = "Change to dark mode";
 {/* //card3 */}
  <div className='item' id='thirdcard' style={cardStyles} onMouseOver={Mousein} onMouseLeave={Mouseout}>
         
-     <img src={charles} alt="profilefoto" style={{width: "250px", height: "250px", borderRadius:8}} />
-        <h1>Egwi Charles </h1>
+     <img src={charles3} alt="profilefoto" style={{width: "250px", height: "250px", borderRadius:8}} />
+        <h3>Egwi Charles </h3>
         <p>Front End/ Backend developer which include Web and Mobile App Developer, with {7} years experience</p>
          <button onClick={showNumber} style={buttonStyles}>Show phone </button>  
         </div>
